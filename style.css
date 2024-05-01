@@ -1,0 +1,44 @@
+*{
+   
+    padding: 0px;
+}
+header{
+    margin: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(23, 100, 23, 0.66);
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 8px 8px 0px 0px;
+}
+form{
+    background-color: rgba(23, 100, 23, 0.66);
+    width: 500px;
+    margin: auto;
+    padding: 12px;
+    border-radius:  0px 0px 8px 8px; 
+    color: white;
+    margin-bottom: 20px;
+}
+table{
+    
+    margin: auto;
+    width: 500px;
+    padding: 12px;
+    border-collapse: collapse;
+    
+}
+thead td{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+td{
+    padding: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+    text-align: center;
+    font-style: italic;
+}
