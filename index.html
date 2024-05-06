@@ -10,11 +10,11 @@
     <header>
         <h1>lisatagem das médias </h1>
     </header>
-    <form>
+    <form id="formulario">
         <p>digite a matéria e nota correspondente</p>
-        <input type="text" placeholder="matéria ">
-        <input type="number" placeholder="nota ">
-        <button>adicionar</button>
+        <input type="text" placeholder="matéria " id="nome" required>
+        <input type="number" placeholder="nota " id="nota" max="10" min="0" required>
+        <button type="submit">adicionar</button>
     </form>
     <table>
         <thead>
@@ -25,12 +25,8 @@
 
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>matematica </td>
-                <td>5</td>
-                <td>emoji</td>
-            </tr>
+        <tbody id="tbody">
+            
         </tbody>
         <tfoot>
             <tr>
@@ -41,4 +37,5 @@
         </tfoot>
     </table>
 </body>
+<script src="script.js"></script>
 </html>
