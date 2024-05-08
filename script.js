@@ -26,7 +26,7 @@ function addLinha(){
     const nota = document.querySelector('#nota')
 
     if (valorNome.includes(nome.value)){
-        alert('já tem')
+        alert(`a matéria ${nome.value} já foi adicionada , digite outra matéria !!! `)
     }else{
         valorNome.push(nome.value)
         valorNota.push(Number(nota.value))
