@@ -14,7 +14,7 @@ formulario.addEventListener("submit" , function(e){
 })
 
 function addPagina(){
-      let tabela = document.querySelector('#tbody')
+    let tabela = document.querySelector('#tbody')
     tabela.innerHTML=linhas
 
     nota.value=''
